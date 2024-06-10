@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: subr-mongo
+  data:
+    mongodb:
+      #uri: mongodb://test:test@localhost:27017/?authSource=dev_ymshin
+      host: localhost
+      port: 27017
+      username: test
+      password: test
+      database: dev_ymshin
+  autoconfigure:
+    exclude:
+    - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+#mongodb+sr://test:test@localhost:27017/?authSource=dev_ymshin
